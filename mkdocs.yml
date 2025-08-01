@@ -1,8 +1,7 @@
 site_name: 給外行人的現代 Python 開發指南
 
 nav:
-  - 'index.md'
-  - 'about.md'
+  - Home: index.md
 
 theme:
   name: material

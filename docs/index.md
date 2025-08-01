@@ -1,17 +1,35 @@
-# Welcome to MkDocs
+# 關於本書
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+> 希望你能早點下班，回家和家人一起吃頓溫熱的晚餐。
 
-## Commands
+---
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+## 給Alita，也給每一個還在加班的人
 
-## Project layout
+這本書的起點，是我最親近的人——我的太太 Alita，一位 AML 分析師。  
+我只希望她能少加一點班，在正常的時間一起吃晚餐。
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+這本書不只為她而寫，  
+它也獻給每一位沒有工程師背景，卻想用科技讓生活和工作更輕鬆的你。
+
+---
+
+## 這本書跟其他教學有什麼不同？
+
+在這個 AI 已經無所不在的年代，  
+你需要的不是「學好所有 Python 語法」，而是「知道怎麼問 AI、怎麼表達需求」。  
+  
+這本小書嚴格的遵循 80/20 法則：
+
+- 只教你「非學不可」的 Python 開發核心知識
+- 其餘的部分交給 AI 解決
+
+---
+
+## 關於作者
+
+[**Tamio Tsiu**](https://www.linkedin.com/in/tamiotsiu/)  
+Sporty Group // Opennet 全球資料科學團隊負責人  
+
+- 十年以上資料科學與 AI 實戰經驗
+- 橫跨金融、製造、科技、博弈產業
