@@ -1,7 +1,9 @@
 site_name: 給外行人的現代 Python 開發指南
 
 nav:
-  - Home: index.md
+  - 關於本書: index.md
+  - 你需要的配備: setup.md
+  - Python 中最重要的四個東西: datatypes.md
 
 theme:
   name: material
@@ -23,7 +25,7 @@ theme:
         name: 切換到淺色模式
   
   features:
-    - navigation.tabs
+    # - navigation.tabs
     - navigation.sections
     - navigation.expand
     - navigation.top
