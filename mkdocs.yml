@@ -1,9 +1,11 @@
 site_name: 給外行人的現代 Python 開發指南
 
 nav:
-  - 關於本書: index.md
-  - 你需要的配備: setup.md
-  - Python 中最重要的四個東西: datatypes.md
+  - 1. 關於本書: index.md
+  - 2. 在正式開始之前: setup.md
+  - 3. Python 中最重要的四個型別: datatypes.md
+  - 4. 如何使用 Python 套件: import_packages.md
+  - 5. 什麼是變數: variables.md
 
 theme:
   name: material
