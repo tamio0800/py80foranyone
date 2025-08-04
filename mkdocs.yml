@@ -1,11 +1,12 @@
 site_name: 給外行人的現代 Python 開發指南
 
 nav:
-  - 1. 關於本書: index.md
-  - 2. 在正式開始之前: setup.md
-  - 3. Python 中最重要的四個型別: datatypes.md
-  - 4. 如何使用 Python 套件: import_packages.md
-  - 5. 什麼是變數: variables.md
+  - 1. 關於本書: 01_index.md
+  - 2. 在正式開始之前: 02_setup.md
+  - 3. Python 中最重要的四個型別: 03_datatypes.md
+  - 4. 如何使用 Python 套件: 04_import_packages.md
+  - 5. 什麼是變數: 05_variables.md
+  - 6. 自動化兩大法寶：if 與 for: 06_if_and_for.md
 
 theme:
   name: material
