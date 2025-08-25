@@ -15,7 +15,7 @@
 
 ## 實際操作：數字與字串
 
-接下來我們到 [Google Colab]((https://colab.research.google.com/?hl=zh-tw)) 實際看看 Python 是怎麼運作的。  
+接下來我們到 [Google Colab](https://colab.research.google.com/?hl=zh-tw) 實際看看 Python 是怎麼運作的。  
 > 請先進到 `Google Colab`，並選擇「新建筆記本」，  
 > 看到下面這樣就對了。  
   

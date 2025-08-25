@@ -1,0 +1,166 @@
+col_a	col_b	col_c	col_c_in_col_a
+user_001, user_037, user_012, user_063, user_042, user_090, user_064	user_002	user_042	"user_042
+[0] >> user_001, user_037, user_012, user_063, user_042, user_090, user_064
+[6] >> user_042, user_024, user_068, user_084"
+user_082, user_032, user_070, user_063, user_050, user_021	user_089	user_084, user_042, user_001	"user_084
+[6] >> user_042, user_024, user_068, user_084
+[26] >> user_027, user_077, user_011, user_006, user_009, user_084, user_002
+
+user_042
+[0] >> user_001, user_037, user_012, user_063, user_042, user_090, user_064
+[6] >> user_042, user_024, user_068, user_084
+
+user_001
+[0] >> user_001, user_037, user_012, user_063, user_042, user_090, user_064"
+user_045, user_008, user_080, user_087, user_007, user_020	user_030	user_029	"user_029
+[29] >> user_059, user_064, user_015, user_032, user_071, user_029, user_020"
+user_082, user_054, user_047, user_073, user_057, user_062	user_035	user_075, user_063, user_008	"user_075
+[27] >> user_062, user_083, user_075, user_009, user_057
+
+user_063
+[0] >> user_001, user_037, user_012, user_063, user_042, user_090, user_064
+[1] >> user_082, user_032, user_070, user_063, user_050, user_021
+[13] >> user_070, user_067, user_053, user_023, user_063, user_028, user_038
+[25] >> user_096, user_070, user_053, user_030, user_037, user_063, user_062, user_041
+
+user_008
+[2] >> user_045, user_008, user_080, user_087, user_007, user_020"
+user_000, user_041, user_061, user_086, user_015, user_085	user_016	user_065	
+user_062, user_093, user_015, user_016, user_040	user_027	user_091, user_004	"user_004
+[12] >> user_034, user_072, user_077, user_004, user_083, user_062"
+user_042, user_024, user_068, user_084	user_076	user_050, user_077	"user_050
+[1] >> user_082, user_032, user_070, user_063, user_050, user_021
+[8] >> user_050, user_049, user_053
+
+user_077
+[12] >> user_034, user_072, user_077, user_004, user_083, user_062
+[14] >> user_077, user_094
+[26] >> user_027, user_077, user_011, user_006, user_009, user_084, user_002"
+user_015, user_060	user_091	user_063, user_067	"user_063
+[0] >> user_001, user_037, user_012, user_063, user_042, user_090, user_064
+[1] >> user_082, user_032, user_070, user_063, user_050, user_021
+[13] >> user_070, user_067, user_053, user_023, user_063, user_028, user_038
+[25] >> user_096, user_070, user_053, user_030, user_037, user_063, user_062, user_041
+
+user_067
+[11] >> user_067, user_057, user_046, user_098, user_047
+[13] >> user_070, user_067, user_053, user_023, user_063, user_028, user_038"
+user_050, user_049, user_053	user_052	user_063, user_035	"user_063
+[0] >> user_001, user_037, user_012, user_063, user_042, user_090, user_064
+[1] >> user_082, user_032, user_070, user_063, user_050, user_021
+[13] >> user_070, user_067, user_053, user_023, user_063, user_028, user_038
+[25] >> user_096, user_070, user_053, user_030, user_037, user_063, user_062, user_041"
+user_022, user_055	user_033	user_026	
+user_068, user_039, user_045, user_058, user_094, user_060, user_043, user_080	user_099	user_017, user_024	"user_017
+[20] >> user_015, user_010, user_017, user_088, user_012, user_085
+[21] >> user_017, user_002, user_061
+
+user_024
+[6] >> user_042, user_024, user_068, user_084"
+user_067, user_057, user_046, user_098, user_047	user_069	user_043	"user_043
+[10] >> user_068, user_039, user_045, user_058, user_094, user_060, user_043, user_080"
+user_034, user_072, user_077, user_004, user_083, user_062	user_008	user_033, user_019, user_028	"user_033
+[18] >> user_033
+
+user_028
+[13] >> user_070, user_067, user_053, user_023, user_063, user_028, user_038"
+user_070, user_067, user_053, user_023, user_063, user_028, user_038	user_065	user_055, user_074, user_084	"user_055
+[9] >> user_022, user_055
+
+user_074
+[16] >> user_044, user_074, user_080, user_068, user_041, user_021, user_095
+
+user_084
+[6] >> user_042, user_024, user_068, user_084
+[26] >> user_027, user_077, user_011, user_006, user_009, user_084, user_002"
+user_077, user_094	user_042	user_024, user_054	"user_024
+[6] >> user_042, user_024, user_068, user_084
+
+user_054
+[3] >> user_082, user_054, user_047, user_073, user_057, user_062
+[28] >> user_037, user_053, user_039, user_062, user_096, user_015, user_054, user_073, user_064"
+user_098, user_037	user_047	user_068	"user_068
+[6] >> user_042, user_024, user_068, user_084
+[10] >> user_068, user_039, user_045, user_058, user_094, user_060, user_043, user_080
+[16] >> user_044, user_074, user_080, user_068, user_041, user_021, user_095"
+user_044, user_074, user_080, user_068, user_041, user_021, user_095	user_003	user_079, user_028	"user_028
+[13] >> user_070, user_067, user_053, user_023, user_063, user_028, user_038"
+user_047, user_094	user_022	user_076, user_093, user_029	"user_076
+[19] >> user_025, user_076, user_041, user_007, user_095, user_045, user_040, user_066, user_094
+
+user_093
+[5] >> user_062, user_093, user_015, user_016, user_040
+
+user_029
+[29] >> user_059, user_064, user_015, user_032, user_071, user_029, user_020"
+user_033	user_090	user_050, user_001, user_038	"user_050
+[1] >> user_082, user_032, user_070, user_063, user_050, user_021
+[8] >> user_050, user_049, user_053
+
+user_001
+[0] >> user_001, user_037, user_012, user_063, user_042, user_090, user_064
+
+user_038
+[13] >> user_070, user_067, user_053, user_023, user_063, user_028, user_038"
+user_025, user_076, user_041, user_007, user_095, user_045, user_040, user_066, user_094	user_073	user_068, user_077, user_014	"user_068
+[6] >> user_042, user_024, user_068, user_084
+[10] >> user_068, user_039, user_045, user_058, user_094, user_060, user_043, user_080
+[16] >> user_044, user_074, user_080, user_068, user_041, user_021, user_095
+
+user_077
+[12] >> user_034, user_072, user_077, user_004, user_083, user_062
+[14] >> user_077, user_094
+[26] >> user_027, user_077, user_011, user_006, user_009, user_084, user_002"
+user_015, user_010, user_017, user_088, user_012, user_085	user_055	user_023, user_082, user_039	"user_023
+[13] >> user_070, user_067, user_053, user_023, user_063, user_028, user_038
+
+user_082
+[1] >> user_082, user_032, user_070, user_063, user_050, user_021
+[3] >> user_082, user_054, user_047, user_073, user_057, user_062
+
+user_039
+[10] >> user_068, user_039, user_045, user_058, user_094, user_060, user_043, user_080
+[28] >> user_037, user_053, user_039, user_062, user_096, user_015, user_054, user_073, user_064"
+user_017, user_002, user_061	user_029	user_016, user_069	"user_016
+[5] >> user_062, user_093, user_015, user_016, user_040"
+user_021, user_099, user_037, user_085, user_000	user_084	user_080, user_010	"user_080
+[2] >> user_045, user_008, user_080, user_087, user_007, user_020
+[10] >> user_068, user_039, user_045, user_058, user_094, user_060, user_043, user_080
+[16] >> user_044, user_074, user_080, user_068, user_041, user_021, user_095
+
+user_010
+[20] >> user_015, user_010, user_017, user_088, user_012, user_085"
+user_027	user_024	user_027, user_093, user_066	"user_027
+[23] >> user_027
+[26] >> user_027, user_077, user_011, user_006, user_009, user_084, user_002
+
+user_093
+[5] >> user_062, user_093, user_015, user_016, user_040
+
+user_066
+[19] >> user_025, user_076, user_041, user_007, user_095, user_045, user_040, user_066, user_094"
+user_086, user_018	user_057	user_084	"user_084
+[6] >> user_042, user_024, user_068, user_084
+[26] >> user_027, user_077, user_011, user_006, user_009, user_084, user_002"
+user_096, user_070, user_053, user_030, user_037, user_063, user_062, user_041	user_041	user_025, user_083	"user_025
+[19] >> user_025, user_076, user_041, user_007, user_095, user_045, user_040, user_066, user_094
+
+user_083
+[12] >> user_034, user_072, user_077, user_004, user_083, user_062
+[27] >> user_062, user_083, user_075, user_009, user_057"
+user_027, user_077, user_011, user_006, user_009, user_084, user_002	user_021	user_033	"user_033
+[18] >> user_033"
+user_062, user_083, user_075, user_009, user_057	user_078	user_088, user_008, user_059	"user_088
+[20] >> user_015, user_010, user_017, user_088, user_012, user_085
+
+user_008
+[2] >> user_045, user_008, user_080, user_087, user_007, user_020
+
+user_059
+[29] >> user_059, user_064, user_015, user_032, user_071, user_029, user_020"
+user_037, user_053, user_039, user_062, user_096, user_015, user_054, user_073, user_064	user_046	user_041	"user_041
+[4] >> user_000, user_041, user_061, user_086, user_015, user_085
+[16] >> user_044, user_074, user_080, user_068, user_041, user_021, user_095
+[19] >> user_025, user_076, user_041, user_007, user_095, user_045, user_040, user_066, user_094
+[25] >> user_096, user_070, user_053, user_030, user_037, user_063, user_062, user_041"
+user_059, user_064, user_015, user_032, user_071, user_029, user_020	user_064	user_052	

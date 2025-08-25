@@ -8,6 +8,7 @@ nav:
   - 5. 什麼是變數: 05_variables.md
   - 6. 自動化兩大法寶：if 與 for: 06_if_and_for.md
   - 7. 怎麼與 AI 解決真實世界的問題: 07_how_to_work_with_ai.md
+  - 8. 自動化實戰：複雜欄位比對: 08_case_study_complex_mapping.md
 
 theme:
   name: material

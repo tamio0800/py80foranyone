@@ -61,7 +61,7 @@ os.listdir()
 ```python
 import pandas as pd
 
-df = pd.read_csv('data/001_example.tsv', sep='\t')
+df = pd.read_csv('001_example.tsv', sep='\t')
 df.head(10)
 ```
 
