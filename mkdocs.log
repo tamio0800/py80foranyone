@@ -1,0 +1,204 @@
+INFO    -  Building documentation...
+INFO    -  Cleaning site directory
+INFO    -  Documentation built in 0.17 seconds
+INFO    -  [02:07:04] Watching paths for changes: 'docs', 'mkdocs.yml'
+INFO    -  [02:07:04] Serving on http://127.0.0.1:8000/
+WARNING -  [02:07:27] "GET / HTTP/1.1" code 404
+INFO    -  [02:07:29] Browser connected: http://127.0.0.1:8000/01_index/
+INFO    -  [02:07:35] Browser connected: http://127.0.0.1:8000/05_variables/
+INFO    -  [02:12:31] Detected file changes
+INFO    -  Building documentation...
+INFO    -  Documentation built in 0.20 seconds
+INFO    -  [02:12:32] Reloading browsers
+INFO    -  [14:24:16] Browser connected: http://127.0.0.1:8000/05_variables/
+INFO    -  [14:37:32] Browser connected: http://127.0.0.1:8000/08_case_study_complex_mapping/
+INFO    -  [14:37:32] Browser connected: http://127.0.0.1:8000/01_index/
+WARNING -  [14:38:11] "GET / HTTP/1.1" code 404
+INFO    -  [14:38:13] Browser connected: http://127.0.0.1:8000/01_index/
+WARNING -  [14:38:15] "GET / HTTP/1.1" code 404
+INFO    -  [14:38:17] Browser connected: http://127.0.0.1:8000/01_index/
+INFO    -  [14:39:52] Detected file changes
+INFO    -  Building documentation...
+INFO    -  Documentation built in 0.22 seconds
+INFO    -  [14:39:53] Reloading browsers
+INFO    -  [14:39:55] Browser connected: http://127.0.0.1:8000/01_index/
+INFO    -  [14:39:59] Detected file changes
+INFO    -  Building documentation...
+INFO    -  [14:40:00] Reloading browsers
+INFO    -  [14:40:00] Browser connected: http://127.0.0.1:8000/01_index/
+INFO    -  [14:40:11] Detected file changes
+INFO    -  Building documentation...
+INFO    -  [14:40:11] Reloading browsers
+INFO    -  [14:40:12] Detected file changes
+INFO    -  Building documentation...
+INFO    -  Documentation built in 0.18 seconds
+INFO    -  [14:40:13] Reloading browsers
+INFO    -  [14:40:13] Browser connected: http://127.0.0.1:8000/01_index/
+INFO    -  [14:40:51] Browser connected: http://127.0.0.1:8000/02_setup/
+INFO    -  [14:40:53] Browser connected: http://127.0.0.1:8000/03_datatypes/
+INFO    -  [21:04:45] Browser connected: http://127.0.0.1:8000/07_how_to_work_with_ai/
+INFO    -  [21:10:08] Browser connected: http://127.0.0.1:8000/02_setup/
+INFO    -  [21:10:17] Browser connected: http://127.0.0.1:8000/03_datatypes/
+INFO    -  [21:10:23] Browser connected: http://127.0.0.1:8000/03_datatypes/
+INFO    -  [21:11:22] Detected file changes
+INFO    -  Building documentation...
+INFO    -  Documentation built in 0.21 seconds
+INFO    -  [21:11:23] Reloading browsers
+INFO    -  [21:11:27] Browser connected: http://127.0.0.1:8000/03_datatypes/
+INFO    -  [21:11:28] Browser connected: http://127.0.0.1:8000/07_how_to_work_with_ai/
+INFO    -  [21:12:03] Detected file changes
+INFO    -  Building documentation...
+INFO    -  [21:12:04] Reloading browsers
+INFO    -  [21:12:05] Browser connected: http://127.0.0.1:8000/07_how_to_work_with_ai/
+INFO    -  [21:12:06] Browser connected: http://127.0.0.1:8000/07_how_to_work_with_ai/
+INFO    -  [21:12:08] Browser connected: http://127.0.0.1:8000/08_case_study_complex_mapping/
+INFO    -  [21:12:09] Browser connected: http://127.0.0.1:8000/07_how_to_work_with_ai/
+INFO    -  [21:14:11] Detected file changes
+INFO    -  Building documentation...
+INFO    -  Documentation built in 0.19 seconds
+INFO    -  [21:14:11] Reloading browsers
+INFO    -  [21:14:16] Browser connected: http://127.0.0.1:8000/07_how_to_work_with_ai/
+INFO    -  [21:14:33] Detected file changes
+INFO    -  Building documentation...
+INFO    -  [21:14:33] Reloading browsers
+INFO    -  [21:14:37] Browser connected: http://127.0.0.1:8000/07_how_to_work_with_ai/
+INFO    -  [21:19:07] Detected file changes
+INFO    -  Building documentation...
+INFO    -  [21:19:07] Reloading browsers
+INFO    -  [21:19:10] Browser connected: http://127.0.0.1:8000/07_how_to_work_with_ai/
+INFO    -  [21:19:14] Detected file changes
+INFO    -  Building documentation...
+INFO    -  [21:19:14] Reloading browsers
+INFO    -  [21:19:15] Browser connected: http://127.0.0.1:8000/07_how_to_work_with_ai/
+INFO    -  [21:19:22] Detected file changes
+INFO    -  Building documentation...
+INFO    -  [21:19:22] Reloading browsers
+INFO    -  [21:19:23] Browser connected: http://127.0.0.1:8000/07_how_to_work_with_ai/
+INFO    -  [21:19:45] Detected file changes
+INFO    -  Building documentation...
+INFO    -  [21:19:45] Reloading browsers
+INFO    -  [21:19:45] Detected file changes
+INFO    -  Building documentation...
+INFO    -  [21:19:46] Reloading browsers
+INFO    -  [21:19:47] Browser connected: http://127.0.0.1:8000/07_how_to_work_with_ai/
+INFO    -  [21:19:53] Detected file changes
+INFO    -  Building documentation...
+INFO    -  [21:19:53] Reloading browsers
+INFO    -  [21:19:54] Browser connected: http://127.0.0.1:8000/07_how_to_work_with_ai/
+INFO    -  [21:20:01] Detected file changes
+INFO    -  Building documentation...
+INFO    -  [21:20:01] Reloading browsers
+INFO    -  [21:20:02] Browser connected: http://127.0.0.1:8000/07_how_to_work_with_ai/
+INFO    -  [21:20:34] Detected file changes
+INFO    -  Building documentation...
+INFO    -  [21:20:35] Reloading browsers
+INFO    -  [21:20:37] Browser connected: http://127.0.0.1:8000/07_how_to_work_with_ai/
+INFO    -  [21:20:57] Detected file changes
+INFO    -  Building documentation...
+INFO    -  [21:20:57] Reloading browsers
+INFO    -  [21:20:58] Browser connected: http://127.0.0.1:8000/07_how_to_work_with_ai/
+INFO    -  [21:55:28] Detected file changes
+INFO    -  Building documentation...
+INFO    -  [21:55:29] Reloading browsers
+INFO    -  [21:55:30] Browser connected: http://127.0.0.1:8000/07_how_to_work_with_ai/
+INFO    -  [21:55:38] Detected file changes
+INFO    -  Building documentation...
+INFO    -  [21:55:38] Reloading browsers
+INFO    -  [21:55:40] Browser connected: http://127.0.0.1:8000/07_how_to_work_with_ai/
+INFO    -  [21:58:19] Detected file changes
+INFO    -  Building documentation...
+INFO    -  [21:58:20] Reloading browsers
+INFO    -  [21:58:23] Browser connected: http://127.0.0.1:8000/07_how_to_work_with_ai/
+INFO    -  [21:58:35] Detected file changes
+INFO    -  Building documentation...
+INFO    -  [21:58:35] Reloading browsers
+INFO    -  [21:58:39] Detected file changes
+INFO    -  Building documentation...
+INFO    -  [21:58:39] Reloading browsers
+INFO    -  [21:58:40] Browser connected: http://127.0.0.1:8000/07_how_to_work_with_ai/
+INFO    -  [22:03:50] Detected file changes
+INFO    -  Building documentation...
+INFO    -  [22:03:51] Reloading browsers
+INFO    -  [22:07:52] Detected file changes
+INFO    -  Building documentation...
+INFO    -  [22:07:52] Reloading browsers
+INFO    -  [22:07:53] Detected file changes
+INFO    -  Building documentation...
+INFO    -  [22:07:53] Reloading browsers
+INFO    -  [22:07:56] Browser connected: http://127.0.0.1:8000/07_how_to_work_with_ai/
+INFO    -  [22:08:59] Detected file changes
+INFO    -  Building documentation...
+INFO    -  [22:08:59] Reloading browsers
+INFO    -  [22:09:00] Detected file changes
+INFO    -  Building documentation...
+INFO    -  [22:09:01] Reloading browsers
+INFO    -  [22:09:04] Browser connected: http://127.0.0.1:8000/07_how_to_work_with_ai/
+INFO    -  [22:10:33] Detected file changes
+INFO    -  Building documentation...
+INFO    -  [22:10:34] Reloading browsers
+INFO    -  [22:10:54] Browser connected: http://127.0.0.1:8000/07_how_to_work_with_ai/
+INFO    -  [22:12:04] Detected file changes
+INFO    -  Building documentation...
+INFO    -  [22:12:04] Reloading browsers
+INFO    -  [22:12:08] Browser connected: http://127.0.0.1:8000/07_how_to_work_with_ai/
+INFO    -  [22:12:10] Browser connected: http://127.0.0.1:8000/07_how_to_work_with_ai/
+INFO    -  [22:13:00] Detected file changes
+INFO    -  Building documentation...
+INFO    -  [22:13:00] Reloading browsers
+INFO    -  [22:13:05] Browser connected: http://127.0.0.1:8000/07_how_to_work_with_ai/
+INFO    -  [22:13:18] Detected file changes
+INFO    -  Building documentation...
+INFO    -  [22:13:18] Reloading browsers
+INFO    -  [22:13:20] Browser connected: http://127.0.0.1:8000/07_how_to_work_with_ai/
+INFO    -  [22:14:38] Detected file changes
+INFO    -  Building documentation...
+INFO    -  Documentation built in 0.16 seconds
+INFO    -  [22:14:38] Reloading browsers
+INFO    -  [22:14:41] Detected file changes
+INFO    -  Building documentation...
+INFO    -  [22:14:42] Reloading browsers
+INFO    -  [22:14:58] Detected file changes
+INFO    -  Building documentation...
+INFO    -  [22:14:58] Reloading browsers
+INFO    -  [22:14:58] Detected file changes
+INFO    -  Building documentation...
+INFO    -  [22:14:58] Reloading browsers
+INFO    -  [22:15:01] Browser connected: http://127.0.0.1:8000/07_how_to_work_with_ai/
+INFO    -  [22:15:06] Detected file changes
+INFO    -  Building documentation...
+INFO    -  [22:15:07] Reloading browsers
+INFO    -  [22:15:26] Browser connected: http://127.0.0.1:8000/07_how_to_work_with_ai/
+INFO    -  [22:18:12] Detected file changes
+INFO    -  Building documentation...
+INFO    -  [22:18:12] Reloading browsers
+INFO    -  [22:18:14] Browser connected: http://127.0.0.1:8000/07_how_to_work_with_ai/
+INFO    -  [22:18:40] Detected file changes
+INFO    -  Building documentation...
+INFO    -  [22:18:40] Reloading browsers
+INFO    -  [22:18:41] Browser connected: http://127.0.0.1:8000/07_how_to_work_with_ai/
+INFO    -  [22:19:09] Detected file changes
+INFO    -  Building documentation...
+INFO    -  [22:19:09] Reloading browsers
+INFO    -  [22:19:12] Detected file changes
+INFO    -  Building documentation...
+INFO    -  [22:19:12] Reloading browsers
+INFO    -  [22:19:15] Browser connected: http://127.0.0.1:8000/07_how_to_work_with_ai/
+INFO    -  [22:19:24] Detected file changes
+INFO    -  Building documentation...
+INFO    -  [22:19:24] Reloading browsers
+INFO    -  [22:19:26] Browser connected: http://127.0.0.1:8000/07_how_to_work_with_ai/
+INFO    -  [22:19:30] Detected file changes
+INFO    -  Building documentation...
+INFO    -  [22:19:31] Reloading browsers
+INFO    -  [22:19:31] Detected file changes
+INFO    -  Building documentation...
+INFO    -  [22:19:32] Reloading browsers
+INFO    -  [22:19:33] Browser connected: http://127.0.0.1:8000/07_how_to_work_with_ai/
+INFO    -  [22:20:15] Detected file changes
+INFO    -  Building documentation...
+INFO    -  [22:20:15] Reloading browsers
+INFO    -  [22:20:16] Browser connected: http://127.0.0.1:8000/07_how_to_work_with_ai/
+INFO    -  [22:21:26] Detected file changes
+INFO    -  Building documentation...
+INFO    -  [22:21:26] Reloading browsers
+INFO    -  [22:21:27] Browser connected: http://127.0.0.1:8000/07_how_to_work_with_ai/

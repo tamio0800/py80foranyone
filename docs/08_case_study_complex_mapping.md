@@ -118,9 +118,8 @@ ChatGPT 思考後把這個任務分成六個步驟：
 
 ### 步驟一：載入套件與設定檔名
 
-<details> <summary>點我看 AI 建議的程式碼</summary>
-<pre><code>
-# --- 步驟 1：載入套件與設定檔名 ---
+<details> <summary>（非必要）點我看 AI 建議的程式碼</summary>
+<pre><code># --- 步驟 1：載入套件與設定檔名 ---
 
 import re
 import pandas as pd
@@ -138,15 +137,18 @@ OUTPUT_WIDE_PATH = "001_example_with_hits.tsv"
 OUTPUT_LONG_PATH = "001_example_hits_long.tsv"
 </code></pre>
 </details>
-  
-這個步驟沒有進行任何運算，也就沒有輸出結果，但你好奇的話仍然可以使用 `print()` 來查看變數的內容。  
+
+**這一步驟解決了什麼問題?**
+
+這個步驟沒有進行運算，也沒有輸出結果，但我們把所有需要的資訊都設定好了。
 
 ---
 
 ### 步驟二：讀取 TSV + 基本健檢
 
-```python
-# --- 步驟 2：讀檔與基本健檢 ---
+
+<details> <summary>（非必要）點我看 AI 建議的程式碼</summary>
+<pre><code># --- 步驟 2：讀檔與基本健檢 ---
 
 # 讀取 TSV（預防 ID 被自動轉型，統一以字串讀入）
 df = pd.read_csv(INPUT_PATH, sep="\t", dtype=str, keep_default_na=False)
@@ -164,21 +166,19 @@ if missing:
 # 顯示前 5 列，確認基礎內容
 print("\n=== 前 5 列（原始）===")
 print(df.head(5).to_string(index=True))
-```
+</code></pre>
+</details>
   
-印出來的資訊如下，看起來似乎沒什麼問題。  
+**這一步驟解決了什麼問題?**  
 
-![](images/020.jpg)
+這個步驟也沒有進行運算，但我們嘗試讀取了資料，並且確認資料結構是否正確。
 
 ---
 
 ### 步驟三：正規化三欄的使用者 ID 組合字串
   
-> (AI 的原文)  
-目標：把「一個到多個用戶 id 組合」統一成 id1, id2, id3 的格式（逗號後一個空白），避免「全形逗號」、「多空白」等問題造成比對失準。
-
-```python
-# --- 步驟 3：正規化欄位字串 ---
+<details> <summary>（非必要）點我看 AI 建議的程式碼</summary>
+<pre><code># --- 步驟 3：正規化欄位字串 ---
 
 def normalize_combo(text: str) -> str:
     """
@@ -226,7 +226,12 @@ for i in range(min(3, len(df))):
     print("  col_a 解析 →", parse_ids(df.loc[i, "col_a"]))
     print("  col_b 解析 →", parse_ids(df.loc[i, "col_b"]))
     print("  col_c 解析 →", parse_ids(df.loc[i, "col_c"]))
-```
+</code></pre>
+</details>
+
+**這一步驟解決了什麼問題?**  
+
+1. 首先，它嘗試將用戶的 id 變成 `id1, id2, id3` 的格式，避免「全形逗號」、「多空白」等問題造成比對失準。 但這不是必須的，因為我們在原始檔案中本來就沒有「全形逗號」或「多空白」這種格式，AI 這樣做是為了保險起見，因為它不知道實際的狀況，未來你遇到這種情況的話是可以手動或是請 AI 刪掉這個步驟的。
   
 即使你看不太出來這段程式碼的意思，看到下面的輸出後應該大致上也能明白，它的目的是把欄位中的字串轉變成列表。  
 
