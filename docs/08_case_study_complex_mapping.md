@@ -244,8 +244,8 @@ for i in range(min(3, len(df))):
 > (AI 的原文)  
 因為同一個 user_id 可能在 col_a 多列出現，所以要把所有命中位置都記起來。
 
-```python
-# --- 步驟 4：建立 col_a 反向索引 ---
+<details> <summary>（非必要）點我看 AI 建議的程式碼</summary>
+<pre><code># --- 步驟 4：建立 col_a 反向索引 ---
 
 id_to_a_hits = defaultdict(list)  # user_id -> List[(row_index, col_a_value)]
 
@@ -259,20 +259,19 @@ print(f"col_a 中不同 user_id 總數：{len(id_to_a_hits)}")
 
 # 顯示前 5 個 user_id 的命中樣貌做為抽查
 for k in list(id_to_a_hits.keys())[:5]:
-    print(f"  範例 user_id {k} → 命中 {len(id_to_a_hits[k])} 次，位置：{id_to_a_hits[k]}")
-```
+    print(f"  範例 user_id {k} → 命中 {len(id_to_a_hits[k])} 次，位置：{id_to_a_hits[k]}")</code></pre></details>
 
 下面是輸出的結果：  
 
-```
-=== 反向索引建立完成 ===
+<details><summary>點我看結果</summary>
+<pre><code>=== 反向索引建立完成 ===
 col_a 中不同 user_id 總數：78
   範例 user_id user_001 → 命中 1 次，位置：[(0, 'user_001, user_037, user_012, user_063, user_042, user_090, user_064')]
   範例 user_id user_037 → 命中 5 次，位置：[(0, 'user_001, user_037, user_012, user_063, user_042, user_090, user_064'), (15, 'user_098, user_037'), (22, 'user_021, user_099, user_037, user_085, user_000'), (25, 'user_096, user_070, user_053, user_030, user_037, user_063, user_062, user_041'), (28, 'user_037, user_053, user_039, user_062, user_096, user_015, user_054, user_073, user_064')]
   範例 user_id user_012 → 命中 2 次，位置：[(0, 'user_001, user_037, user_012, user_063, user_042, user_090, user_064'), (20, 'user_015, user_010, user_017, user_088, user_012, user_085')]
   範例 user_id user_063 → 命中 4 次，位置：[(0, 'user_001, user_037, user_012, user_063, user_042, user_090, user_064'), (1, 'user_082, user_032, user_070, user_063, user_050, user_021'), (13, 'user_070, user_067, user_053, user_023, user_063, user_028, user_038'), (25, 'user_096, user_070, user_053, user_030, user_037, user_063, user_062, user_041')]
   範例 user_id user_042 → 命中 2 次，位置：[(0, 'user_001, user_037, user_012, user_063, user_042, user_090, user_064'), (6, 'user_042, user_024, user_068, user_084')]
-```
+</code></pre></details>
 
 永遠記得要手動比對一下程式跑出來的結果，你有注意到 `user_037` 並不在 `col_c` 中嗎？ 試著讀一下「步驟四」的代碼，並且思考看看為什麼會這樣。
   
@@ -299,12 +298,10 @@ col_a 中不同 user_id 總數：78
 > [col_a_index] >> col_a_value
 > </code></pre>
 > 
-> - 多個 user_id 彼此之間以空行分隔；若該列 col_c 無任何命中，則為空字串。
+> - 多個 user_id 彼此之間以空行分隔；若該列 col_c 無任何命中，則為空字串。  
 
-下面是這個步驟的 AI 生成代碼：  
-
-```python
-# --- 步驟 5：生成 col_c_in_col_a ---
+<details> <summary>（非必要）點我看 AI 建議的程式碼</summary>
+<pre><code># --- 步驟 5：生成 col_c_in_col_a ---
 
 def build_hit_cell(c_ids: list, index_map: dict) -> str:
     """
@@ -336,12 +333,12 @@ for i in range(min(5, len(df))):
     print("col_c =", df.loc[i, "col_c"])
     print("col_c_in_col_a ↓")
     print(df.loc[i, "col_c_in_col_a"] if df.loc[i, "col_c_in_col_a"] else "(無命中)")
-```
+</code></pre></details>
 
 下面是執行完畢後的輸出：
 
-```
-=== col_c_in_col_a 產生完成 ===
+<details><summary>點我看輸出</summary>
+<pre><code>=== col_c_in_col_a 產生完成 ===
 
 --- Row 0 ---
 col_c = user_042
@@ -388,8 +385,8 @@ user_008
 --- Row 4 ---
 col_c = user_065
 col_c_in_col_a ↓
-(無命中)
-```
+(無命中) 
+</code></pre></details>
 
 輸出看起來跟任務說明是一致的，我比對了前三筆看起來沒什麼問題，建議你也試著手動比對看看。
 
@@ -397,8 +394,8 @@ col_c_in_col_a ↓
 
 ### 步驟六：匯出新 table（含新欄位）
 
-```python
-# --- 步驟 6：輸出新 table（含 col_c_in_col_a）---
+<details> <summary>（非必要）點我看 AI 建議的程式碼</summary>
+<pre><code># --- 步驟 6：輸出新 table（含 col_c_in_col_a）---
 
 df.to_csv(OUTPUT_WIDE_PATH, sep="\t", index=False)
 print(f"=== 已輸出新 table 到：{OUTPUT_WIDE_PATH} ===")
@@ -407,15 +404,14 @@ print(f"=== 已輸出新 table 到：{OUTPUT_WIDE_PATH} ===")
 non_empty = (df["col_c_in_col_a"].str.len() > 0).sum()
 print(f"有命中的列數：{non_empty} / {len(df)}")
 print("（你可以下載 TSV 後，用試算表或文字編輯器查看每格的多行內容）")
-```
+</code></pre></details>
 
 輸出如下：  
 
-```
-=== 已輸出新 table 到：001_example_with_hits.tsv ===
+<pre><code>=== 已輸出新 table 到：001_example_with_hits.tsv ===
 有命中的列數：27 / 30
 （你可以下載 TSV 後，用試算表或文字編輯器查看每格的多行內容）
-```
+</code></pre>
 
 你可以同樣將這份 tsv 資料匯入 Google Sheet 來查看結果，它完美符合了上述的任務要求。 這邊附上 [處理後的資料](data/001_example_with_hits.tsv) 讓你可以一併比對看看。
 
