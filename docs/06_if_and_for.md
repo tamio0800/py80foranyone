@@ -144,7 +144,7 @@ for each_key in os.environ.keys():
         data-repo="tamio0800/py80foranyone"
         data-repo-id="R_kgDOPWvXEw"
         data-category="Announcements"
-        data-category-id="DIC_kwDOPWvXE84CbQmK"
+        data-category-id="DIC_kwDOPWvXE84Ctufq"
         data-mapping="pathname"
         data-strict="0"
         data-reactions-enabled="1"

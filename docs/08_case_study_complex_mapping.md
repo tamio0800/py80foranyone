@@ -444,7 +444,7 @@ print("（你可以下載 TSV 後，用試算表或文字編輯器查看每格�
         data-repo="tamio0800/py80foranyone"
         data-repo-id="R_kgDOPWvXEw"
         data-category="Announcements"
-        data-category-id="DIC_kwDOPWvXE84CbQmK"
+        data-category-id="DIC_kwDOPWvXE84Ctufq"
         data-mapping="pathname"
         data-strict="0"
         data-reactions-enabled="1"

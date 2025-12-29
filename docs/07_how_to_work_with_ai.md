@@ -191,7 +191,7 @@ AI 越來越聰明，但它還是不會讀心。
         data-repo="tamio0800/py80foranyone"
         data-repo-id="R_kgDOPWvXEw"
         data-category="Announcements"
-        data-category-id="DIC_kwDOPWvXE84CbQmK"
+        data-category-id="DIC_kwDOPWvXE84Ctufq"
         data-mapping="pathname"
         data-strict="0"
         data-reactions-enabled="1"
