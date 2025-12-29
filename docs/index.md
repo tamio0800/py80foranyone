@@ -36,3 +36,19 @@ Sporty Group // Opennet 全球資料科學團隊負責人
 - 橫跨金融、製造、科技、博弈產業
 
 ---
+
+<script src="https://giscus.app/client.js"
+        data-repo="tamio0800/py80foranyone"
+        data-repo-id="R_kgDOPWvXEw"
+        data-category="Announcements"
+        data-category-id="DIC_kwDOPWvXE84CbQmK"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="preferred_color_scheme"
+        data-lang="zh-TW"
+        crossorigin="anonymous"
+        async>
+</script>

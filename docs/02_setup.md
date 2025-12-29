@@ -3,7 +3,7 @@
 ## 開始前，你需要準備哪些東西？
 
 1. 你最好有一台電腦，真心不騙；但萬一真的沒有，手機也可以（介面會跟附圖很不一樣）。
-2. Google 帳號，我們會使用 [Google Colab](https://colab.research.google.com/?hl=zh-tw) 來進行部分練習。
+2. Google 帳號，我們主要使用 [Google Colab](https://colab.research.google.com/?hl=zh-tw) 來進行開發與執行。
 3. ChatGPT 帳號，這本小書需要你大量使用 [ChatGPT](https://chatgpt.com/) 來輔助開發。
 4. 一顆不怕犯錯的心，遇到問題時，請多善用 ChatGPT；如果對結果感到好奇，也請隨時詢問 ChatGPT。
 
@@ -37,8 +37,8 @@ commit。
 <script src="https://giscus.app/client.js"
         data-repo="tamio0800/py80foranyone"
         data-repo-id="R_kgDOPWvXEw"
-        data-category="[在此輸入分類名稱]"
-        data-category-id="[在此輸入分類 ID]"
+        data-category="Announcements"
+        data-category-id="DIC_kwDOPWvXE84CbQmK"
         data-mapping="pathname"
         data-strict="0"
         data-reactions-enabled="1"

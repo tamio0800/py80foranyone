@@ -1,7 +1,7 @@
 site_name: 給外行人的現代 Python 開發指南
 
 nav:
-  - 1. 關於本書: 01_index.md
+  - 1. 關於本書: index.md
   - 2. 在正式開始之前: 02_setup.md
   - 3. Python 中最重要的四個型別: 03_datatypes.md
   - 4. 如何使用 Python 套件: 04_import_packages.md
@@ -35,4 +35,4 @@ theme:
     - navigation.expand
     - navigation.top
     - search.highlight
-    - search.share 
+    - search.share
