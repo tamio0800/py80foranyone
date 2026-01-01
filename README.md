@@ -42,7 +42,7 @@
 
 ### 本地運行
 
-1. **克隆專案**
+1. **複製專案**
    ```bash
    git clone https://github.com/tamio0800/py80foranyone.git
    cd py80foranyone
