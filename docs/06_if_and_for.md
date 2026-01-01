@@ -131,6 +131,15 @@ for each_key in os.environ.keys():
 
 ---
 
+## 你可以這樣問 AI
+
+- Python 中要怎麼設定「不等於」或「大於等於」的條件？
+- Python 中只有 if 跟 else 可以用嗎？ 如果我要比較很多個條件怎麼辦？
+- 多給我一些 Python range 的範例。
+- Python 中怎麼用 for 幫每個檔案都加上日期？
+
+---
+
 ## 你可能不需要知道這些東西
 
 未來來你很可能會在程式碼中，看到長得像下面這樣的東西：
@@ -176,15 +185,6 @@ for each_key in os.environ.keys():
 3. **同一段邏輯出現很多次**  
    這時可以請 AI 幫你把它包成 `function`，  
    之後只要統一改這個地方就好。
-
----
-
-## 你可以這樣問 AI
-
-- Python 中要怎麼設定「不等於」或「大於等於」的條件？
-- Python 中只有 if 跟 else 可以用嗎？ 如果我要比較很多個條件怎麼辦？
-- 多給我一些 Python range 的範例。
-- Python 中怎麼用 for 幫每個檔案都加上日期？
 
 ---
 
