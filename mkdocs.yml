@@ -1,4 +1,6 @@
 site_name: 給外行人的現代 Python 開發指南
+site_description: "遵循80/20法則，專為沒有程式背景的人設計的 Python 學習小書。"
+site_author: Tamio Tsiu
 
 # GitHub Pages 部署配置
 site_url: https://tamio0800.github.io/py80foranyone/
@@ -41,3 +43,15 @@ theme:
     - navigation.top
     - search.highlight
     - search.share
+  
+  # 社交媒體與 Open Graph 配置
+  extra:
+    social:
+      - icon: fontawesome/brands/linkedin
+        link: https://www.linkedin.com/in/tamiotsiu/
+      - icon: fontawesome/brands/github
+        link: https://github.com/tamio0800/py80foranyone
+    generator: false
+    # Open Graph 圖片（建議尺寸：1200x630px）
+    # 請將您的封面圖片放在 docs/images/og-image.jpg 後，取消下面這行的註解
+    # image: https://tamio0800.github.io/py80foranyone/images/og-image.jpg
