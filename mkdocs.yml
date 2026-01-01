@@ -1,5 +1,10 @@
 site_name: 給外行人的現代 Python 開發指南
 
+# GitHub Pages 部署配置
+site_url: https://tamio0800.github.io/py80foranyone/
+repo_url: https://github.com/tamio0800/py80foranyone
+repo_name: tamio0800/py80foranyone
+
 nav:
   - 1. 關於本書: index.md
   - 2. 在正式開始之前: 02_setup.md
